@@ -60,6 +60,7 @@ groceries i {
     margin-right: 10px;
     margin-top: 15px;
     font-size: 2rem;
+    
 }
 
 @media(max-width:480px){
