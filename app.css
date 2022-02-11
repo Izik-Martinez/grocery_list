@@ -7,7 +7,7 @@ margin: 0;
 body {
 
 font-family: 'Supermercado One', sans-serif;
-background-color: #FBFFFE;
+background-color: #E6AF2E;
 color: #001514;
 }
 
@@ -22,6 +22,22 @@ color: #001514;
 .groceries  {
 
 border: 1px solid black;
+width: 600px;
+min-height: 100vh;
+/* as the list grows, the container will grow also */
+margin: auto;
+background: #FBFFFE;
+box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.55);
+}
 
+.groceries h1 {
+
+font-size: 2.5rem;
+margin-top: 1em;
+}
+
+groceries i {
+    font-size: 2rem;
+   color: orange;
 
 }
