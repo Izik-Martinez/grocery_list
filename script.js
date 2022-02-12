@@ -29,4 +29,9 @@ function addItem(){
       h2.style.textDecoration = "line-through";
 
     })
+
+    allItems.insertAdjacentElement("beforeend", h2);
+
+
+
 }
