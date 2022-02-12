@@ -1,7 +1,10 @@
+
+
+
 const groceries = document.getElementsByClassName("groceries")[0];
-const pen = document.getElementsById("pen");
-const allItems = document.getElementsById("allItems");
-const userInput = getElementsById("userInput");
+const pen = document.getElementById("pen");
+const allItems = document.getElementById("allItems");
+const userInput = document.getElementById("usersInput");
 
 pen.addEventListener("click", function(){
 
@@ -32,6 +35,12 @@ function addItem(){
 
     allItems.insertAdjacentElement("beforeend", h2);
 
+    userInput.value = "";
+
 
 
 }
+
+
+alert("test");
+console.log("test");
