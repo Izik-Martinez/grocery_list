@@ -41,6 +41,3 @@ function addItem(){
 
 }
 
-
-alert("test");
-console.log("test");
