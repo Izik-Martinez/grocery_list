@@ -9,7 +9,7 @@ const userInput = document.getElementById("usersInput");
 pen.addEventListener("click", function(){
 
  allItems.innerHTML = "";
-
+ 
 })
 
 userInput.addEventListener("keydown", function(event){
@@ -28,8 +28,12 @@ function addItem(){
       h2.innerHTML = "- " + userInput.value;
 
       h2.addEventListener("click", function(){
-
+      if(allItems.style.textDecoration != "line-through"){
       h2.style.textDecoration = "line-through";
+    } else {
+       h2.style.textDecoration = "none";
+      
+    }
 
     })
 
